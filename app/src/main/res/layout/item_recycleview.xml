@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        />
+
+    <TextView
+        android:id="@+id/nickName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/avatar"
+        android:layout_alignTop="@id/avatar"
+        android:layout_marginLeft="12dp"
+        android:textSize="16sp"
+        android:text="天下无贼"
+        />
+
+    <TextView
+        android:id="@+id/realName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nickName"
+        android:layout_alignLeft="@id/nickName"
+        android:layout_marginTop="12dp"
+        android:textSize="16sp"
+        android:text="刘若英"
+        />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/realName"
+        android:layout_alignLeft="@id/nickName"
+        android:layout_marginTop="12dp"
+        android:textSize="16sp"
+        android:text="北京市海淀区牡丹园高德大厦2105"
+        android:singleLine="true"
+        />
+</RelativeLayout>
